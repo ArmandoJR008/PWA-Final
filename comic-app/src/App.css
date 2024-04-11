@@ -40,15 +40,14 @@
 /* App.css */
 
 .comics-list {
+  align-content: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap;  
   padding: 20px;
   gap: 20px;
 }
 
-.comic-item {  
-  justify-content: center;
+.comic-item { 
   width: 200px;
   margin: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  

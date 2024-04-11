@@ -12,7 +12,7 @@ function ComicDetail() {
       setIsLoading(true);
       setError(null);
       const apiKey = process.env.REACT_APP_COMIC_VINE_API_KEY;
-      const url = `https://cors-anywhere.herokuapp.com/http://comicvine.gamespot.com/api/issue/4000-${id}/?api_key=604b9ea76b05b5b339ad8189752f35aa6fad4f7f&format=json`;
+      const url = `https://cors-anywhere.herokuapp.com/http://comicvine.gamespot.com/api/issue/4000-${id}/?api_key=${apiKey}&format=json`;
 
       try {
         const response = await fetch(url);
